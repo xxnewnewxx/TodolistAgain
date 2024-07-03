@@ -1,0 +1,47 @@
+body {
+  font-family: "GmarketSansMedium";
+  margin: 0;
+  background-image: linear-gradient(to top, #f3afde 0%, #ff8ee5 100%);
+  background-size: cover;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 5rem;
+}
+.container {
+  background: #fff;
+  min-height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 50px;
+}
+
+.taskAreaHTML {
+  border: 1px solid gray;
+}
+
+.taskTabHTML {
+  display: flex;
+  border-bottom: 1px solid gray;
+  position: relative;
+}
+
+.taskTabHTML div {
+  padding: 1em;
+}
+
+#underLineHTML {
+  height: 4px;
+  background-color: hotpink;
+  position: absolute;
+  width: 57px;
+  left: 0;
+  top: 52px;
+  padding: 0px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
